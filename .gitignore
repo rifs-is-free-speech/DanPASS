@@ -1,0 +1,5 @@
+.idea/
+*.out
+text/*
+audio/*
+.DS_Store
