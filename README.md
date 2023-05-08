@@ -48,3 +48,18 @@ You have to make sure you extract the files like this:
 dialogues\_continuous.txt and monologues\_continuous.txt contains the text
 found in the PDF from the DanPASS page. We have made a script to turn this into
 text that can be aligned by the rifs-CLI.
+
+## Citation
+
+If you want to use the data remember to cite it in your paper.
+
+```
+@inproceedings{gronnum2006danpass,
+  title={DanPASS-A Danish Phonetically Annotated Spontaneous Speech Corpus.},
+  author={Gr{\o}nnum, Nina},
+  booktitle={LREC},
+  pages={1578--1583},
+  year={2006}
+}
+```
+
