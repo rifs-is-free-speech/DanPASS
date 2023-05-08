@@ -23,4 +23,28 @@ Because the original data comes in a format that is not ready for training you h
 
 You have to make sure you extract the files like this:
 
+```
 
+├── all.csv                                          
+├── audio                                                                                                  
+│   ├── dialogues_mono_soundfiles                                                                          
+│   │   └── *.wav                                    
+│   └── monologues                                   
+│       └── *.wav
+├── .gitignore                            
+├── README.md                                                                                                                                 ├── text                                                                             
+│   ├── dialogues_continuous.txt
+│   ├── dialogues_mono_soundfiles         
+│   │   └── (Empty for now)                                    
+│   ├── monologues_continuous.txt
+│   └── monologues                                   
+│       └── (Empty for now)                                   
+└── text_cleaning.py 
+
+```
+
+### 2. run text\_cleaning.py
+
+dialogues\_continuous.txt and monologues\_continuous.txt contains the text
+found in the PDF from the DanPASS page. We have made a script to turn this into
+text that can be aligned by the rifs-CLI.
